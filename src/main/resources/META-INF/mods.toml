@@ -1,0 +1,22 @@
+modLoader="javafml"eloaderVersion="[47,)"
+license="MIT"
+
+[[mods]]
+modId="villagercontrol"
+version="1.0.0"
+displayName="Управление жителями"
+description='''Русские команды для запрета и разрешения появления жителей, а также удаления жителей из мира.'''
+
+[[dependencies.villagercontrol]]
+modId="forge"
+mandatory=true
+versionRange="[47.2,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.villagercontrol]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
