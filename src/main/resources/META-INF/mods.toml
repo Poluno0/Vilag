@@ -1,16 +1,21 @@
-modLoader="javafml"eloaderVersion="[47,)"
-license="MIT"
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
 
 [[mods]]
 modId="villagercontrol"
 version="1.0.0"
 displayName="Управление жителями"
-description='''Русские команды для запрета и разрешения появления жителей, а также удаления жителей из мира.'''
+description='''
+Мод для управления жителями мира Minecraft.
+Позволяет запрещать спавн жителей, убивать всех жителей
+и снова разрешать их появление.
+'''
 
 [[dependencies.villagercontrol]]
 modId="forge"
 mandatory=true
-versionRange="[47.2,48)"
+versionRange="[47,48)"
 ordering="NONE"
 side="BOTH"
 
