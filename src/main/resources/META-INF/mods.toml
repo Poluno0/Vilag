@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="villagercontrol"
+version="1.0.1"
+displayName="Управление жителями"
+description='''Мод позволяет запрещать появление обычных жителей, убивать их и снова разрешать спавн. Зомби-жители не блокируются; при попытке лечения погибают.'''
+
+[[dependencies.villagercontrol]]
+modId="forge"
+mandatory=true
+versionRange="[47,48)"
+ordering="NONE"
+side="BOTH"
+
+[[dependencies.villagercontrol]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.20.2)"
+ordering="NONE"
+side="BOTH"
